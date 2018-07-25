@@ -4,12 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <GridView
-        android:id="@+id/gridView"
-        android:numColumns="auto_fit"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    tools:context=".VentaActivity">
 
 </android.support.constraint.ConstraintLayout>
