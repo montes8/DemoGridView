@@ -17,7 +17,7 @@ class MainActivity (var adapter:CocheAdapter?=null): AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        listadeCoches.add(Coche(R.drawable.camaro,"Camaro","coche de camaro esdicion especial","Precio: $350",false))
+        listadeCoches.add(Coche(R.drawable.camaro,"Camaro","coche de camaro ","Precio: $350",false))
         listadeCoches.add(Coche(R.drawable.hw,"shake","coche de shake","Precio: $350",true))
         listadeCoches.add(Coche(R.drawable.hwbudy,"Budy","coche de budy","Precio: $350",false))
         listadeCoches.add(Coche(R.drawable.hwcharnger,"Changer","coche de Changer","Precio: $350",true))

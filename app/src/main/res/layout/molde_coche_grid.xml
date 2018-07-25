@@ -19,9 +19,9 @@
             android:id="@+id/image_view_card"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:src="@drawable/toad"
+            android:layout_marginTop="5dp"
             android:layout_gravity="center_horizontal"
-            />
+            android:src="@drawable/toad" />
         <TextView
                 android:id="@+id/text_view_titulo"
                 android:layout_width="match_parent"

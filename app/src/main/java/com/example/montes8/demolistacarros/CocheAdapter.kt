@@ -9,8 +9,7 @@ import android.widget.BaseAdapter
 import com.example.montes8.demolistacarros.CocheActivity
 import com.example.montes8.demolistacarros.R
 import com.example.montes8.demolistacarros.VentaActivity
-import kotlinx.android.synthetic.main.item_layout_card.view.*
-import java.security.AccessControlContext
+import kotlinx.android.synthetic.main.molde_coche_grid.view.*
 
 
 class CocheAdapter(contexto: Context, var listadeCoches:ArrayList<Coche>):BaseAdapter(){
